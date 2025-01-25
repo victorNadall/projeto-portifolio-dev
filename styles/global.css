@@ -29,3 +29,19 @@
   --text-md: 400 16px/140% var(--maven-pro);
   --text-sm: 400 14px/140% var(--maven-pro);
 }
+
+body {
+  background-color: var(--gray-200);
+  color: var(--gray-500);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1366px;
+  margin-inline: auto;
+  border: 2px solid red;
+}
+
